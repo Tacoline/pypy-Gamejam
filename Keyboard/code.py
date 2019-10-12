@@ -29,25 +29,25 @@ def setLed(num, color):
 
 while True:
     if cpx.touch_A1:
-        setLed(6, (255, 0, 0))
+        setLed(6, 0xFF0000)
         play(262)
     elif cpx.touch_A2:
-        setLed(7, 0x6A5ACD)
+        setLed(7, 0xFF8C00)
         play(294)
     elif cpx.touch_A3:
-        setLed(8, 0xFFE4B5)
+        setLed(8, 0xFFFF00)
         play(330)
     elif cpx.touch_A4:
-        setLed(0, 0x6495ED)
+        setLed(0, 0x008000)
         play(349)
     elif cpx.touch_A5:
-        setLed(1, 0x40E0D0)
+        setLed(1, 0x0000FF)
         play(392)
     elif cpx.touch_A6:
-        setLed(3, 0x3CB371)
+        setLed(3, 0x4B0082)
         play(440)
     elif cpx.touch_A7:
-        setLed(4, 0xB8860B)
+        setLed(4, 0xEE82EE)
         play(494)
     else:
         resetLed()
